@@ -10,7 +10,7 @@
 // uncomment the following line and ______ with the appropriate code
 // var howManyPeople = ______;
 
-// set the variable below equal to the number of people in the array
+// set the variable below equal to the last name in the array
 // uncomment the following line and replace ______ with the appropriate code
 // var lastPerson = ______;
 
