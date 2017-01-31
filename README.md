@@ -2,10 +2,14 @@ Prework Week 3 assignment
 =========================
 
 This week you'll be completing the scripts in the following files:
+
 * arrayIndexConsiderations.js
 * arrays.js
 * booleanConditions.js
+* doWhileLoops.js
 * forLoop.js
+* logicalOperators.js
+* loopsAndConditions.js
 * switchDefault.js
 * whileLoop.js
 
@@ -36,3 +40,6 @@ function tripleThis( number ){
 All the js files are sourced into index.html.
 
 Turn in your work via the assignment app at primeacademy.io, as usual and don't hesitate to hit up the Slack channel as needed!
+
+Don't edit or worry about any files other than the .js files
+=============
