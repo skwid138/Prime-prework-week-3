@@ -15,7 +15,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'assignment/*.js',
+      // 'assignment/*.js',
+      'hidden-valley-ranch/*.js',
       'tests/*.js'
     ],
 
