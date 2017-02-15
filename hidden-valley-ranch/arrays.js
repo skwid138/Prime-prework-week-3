@@ -7,7 +7,7 @@ var firstPerson = people[0];
 // set the variable below equal to the name of the first person in the array
 var howManyPeople = people.length ;
 
-// set the variable below equal to the number of people in the array
+// set the variable below equal to the last name in the array
 var lastPerson = people[ people.length -1 ];
 
 // add 'Prince' to the array
