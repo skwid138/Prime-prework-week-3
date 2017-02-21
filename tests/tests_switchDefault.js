@@ -1,4 +1,4 @@
-describe( 'switch default', function() {
+describe('basemode switch default', function() {
     it( 'switch', function() {
       assert.equal( true, checkDay( 'saturday' ) );
     });

@@ -1,4 +1,4 @@
-describe( 'loop tests', function() {
+describe('basemode loop tests', function() {
     it( 'for loop test 1', function() {
       assert.equal( 18, shoesOnTheBus( 9 ) );
     });

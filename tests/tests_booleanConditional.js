@@ -1,4 +1,4 @@
-describe( 'boolean conditional', function() {
+describe('basemode boolean conditional', function() {
     it( 'egg carton full', function() {
       assert.equal( true, isCartonFull( 12, 12 ) );
     });

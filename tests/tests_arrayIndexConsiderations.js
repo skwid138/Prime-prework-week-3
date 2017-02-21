@@ -1,4 +1,4 @@
-describe('array index considerations', function() {
+describe('basemode array index considerations', function() {
     it('the red color', function() {
         assert.equal(theColorRed, 'red');
     });
