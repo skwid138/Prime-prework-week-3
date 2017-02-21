@@ -8,4 +8,4 @@ function tripleThis( number ){
   var answer = number * 3;
   // return this new, higher number
   return answer;
-} // end tripleThis
+} // end shoesOnTheBus

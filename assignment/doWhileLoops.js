@@ -5,4 +5,4 @@ do {
 } while (false)
 
 // uncomment the following line and replace ___ with the correct value
-// var valueOfCountAfterLoop = ___;
+var valueOfCountAfterLoop = 1;
