@@ -1,4 +1,4 @@
-describe( 'array tests', function() {
+describe('basemode array tests', function() {
     it( 'firstPerson', function() {
       assert.equal( 'Albert', firstPerson );
     });

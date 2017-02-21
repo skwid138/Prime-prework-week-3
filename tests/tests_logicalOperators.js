@@ -1,4 +1,4 @@
-describe('Logical Operators', function() {
+describe('basemode Logical Operators', function() {
   it('and', function() {
     var trueValues = andTruthTable.filter(function(boolean) {
       return boolean;
