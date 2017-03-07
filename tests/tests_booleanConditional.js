@@ -1,8 +1,8 @@
-describe('basemode boolean conditional', function() {
-    it( 'egg carton full', function() {
-      assert.equal( true, isCartonFull( 12, 12 ) );
+describe('basemode booleanConditions.js', function() {
+    it( 'isCartonFull should return true if eggsInCarton == cartonCapacity', function() {
+      assert.equal( true, isCartonFull( 18, 18 ) );
     });
-    it( 'egg carton not full', function() {
-      assert.equal( false, isCartonFull( 9, 12 ) );
+    it( 'isCartonFull should return false if eggsInCarton < cartonCapacity', function() {
+      assert.equal( false, isCartonFull( 9, 18 ) );
     });
 });
