@@ -7,5 +7,6 @@ function shoesOnTheBus( kidsOnTheBus ){
   for (var i = 0; i < kidsOnTheBus; i++) {
     shoes+=2;
   } // end for
+  console.log(25);
   return shoes;
 } // end shoesOnTheBus
