@@ -1,11 +1,9 @@
-describe('basemode switch default', function() {
-    it( 'switch', function() {
+describe('basemode switchDefault.js', function() {
+    it( 'switch statements should return true for weekend days. CHECK', function() {
       assert.equal( true, checkDay( 'saturday' ) );
-    });
-    it( 'other switch', function() {
       assert.equal( true, checkDay( 'sunday' ) );
     });
-    it( 'default', function() {
+    it( 'switch statements should return false for weekdays. CHECK', function() {
       assert.equal( false, checkDay( 'wednesday' ) );
     });
 });
