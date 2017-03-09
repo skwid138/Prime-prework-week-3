@@ -1,12 +1,13 @@
-function shoesOnTheBus( kidsOnTheBus ){
-  // this function accepts the number of kids on the bus
-  // assume each kid on the bus is wearing 2 shoes
-  // write a for loop that counts how many shoes are on the bus
-  // this function should return the number of shoes on the bus
+
+function shoesOnTheBus( arrayOfKidsOnBus ){
+  // This function accepts an array of names of kids on the bus.
+  // Assume each kid on the bus is wearing 2 shoes.
+  // Write a for loop to count how many shoes are on the bus AND console logs "Nice shoes!" for each student.
+  // This function should return the number of shoes on the bus.
   var shoes = 0;
-  for (var i = 0; i < kidsOnTheBus; i++) {
+  for (var i = 0; i < kidsOnTheBus.length; i++) {
     shoes+=2;
+    console.log("Nice shoes!");
   } // end for
-  console.log(25);
   return shoes;
 } // end shoesOnTheBus
