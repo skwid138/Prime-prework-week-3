@@ -6,6 +6,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "karma": "^0.13.22",
+    "karma-better-sinon-chai": "^0.1.1",
     "karma-chai": "^0.1.0",
     "karma-junit-reporter": "^1.2.0",
     "karma-mocha": "^1.0.1",
