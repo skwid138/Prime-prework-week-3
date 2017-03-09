@@ -1,4 +1,4 @@
-describe('basemode loop tests', function() {
+describe('basemode forLoop.js', function() {
 var kids = ['Billy', 'GOAT', 'Mountain', 'Nigora', 'LL Cool J']
 
   it( 'should log "Nice shoes!" for each index of the array', function() {

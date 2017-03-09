@@ -18,7 +18,8 @@ module.exports = function(config) {
       'assignment/*.js',
       'tests/*.js'
     ],
-    
+
+    //for sinon
     client: {
       chai: {
         includeStack: true
