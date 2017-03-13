@@ -1,5 +1,5 @@
 describe('basemode forLoop.js', function() {
-var kids = ['Billy', 'GOAT', 'Mountain', 'Nigora', 'LL Cool J']
+  var kids = ['Billy', 'GOAT', 'Mountain', 'Nigora', 'LL Cool J']
 
   it( 'should log "Nice shoes!" for each index of the array', function() {
     var spy = sinon.spy(console, 'log');
