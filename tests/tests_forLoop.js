@@ -20,4 +20,3 @@ describe('basemode forLoop.js', function() {
     assert.equal( 0, shoesOnTheBus([]) );
   });
 });
-
