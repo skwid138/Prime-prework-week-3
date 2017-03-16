@@ -7,4 +7,4 @@ function isCartonFull( eggsInCarton, cartonCapacity ){
   else{
     return false;
   }
-} // end checkIfCartonIsFull
+} // end isCartonFull
