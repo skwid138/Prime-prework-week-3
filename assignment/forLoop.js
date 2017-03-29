@@ -3,6 +3,10 @@ function shoesOnTheBus( ArrayOfKidsOnBus ){
   // Assume each kid on the bus is wearing 2 shoes.
   // Write a for loop to count how many shoes are on the bus
   // AND console log "Nice shoes!" for each student.
+
+  // The totaling of shoes should be done inside the loop.
+  
+
   // This function should return the number of shoes on the bus.
 
 } // end shoesOnTheBus
