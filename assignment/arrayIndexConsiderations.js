@@ -12,7 +12,10 @@ var colors = ['red', 'blue', 'yellow'];
 // uncomment the following line and replace ____ with the appropriate code
 // var fortyThirdColor = _____;
 
-function lastItem( array ) {
-  // this function accepts an array as an argument
+function lastItem( lastItemArray ) {
+  // this function accepts an array (lastItemArray) as an argument
   // have it return the last item in the array
 }
+
+// test your function lastItem by calling it below and logging the result
+// for ex. console.log(lastItem(colors)); 

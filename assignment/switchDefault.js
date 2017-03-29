@@ -3,4 +3,6 @@ function checkDay( today ){
   // DAYS MUST BE IN ALL lowercase LETTERS AND FULL NAMES
   // ex: 'wednesday', not 'Wednesday' or 'wed'
   // return true if it is the weekend, false if not
-}; // end checkDay
+} // end checkDay
+
+// test your function checkDay by calling it below and logging the result
