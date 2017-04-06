@@ -2,7 +2,7 @@ describe('basemode arrayIndexConsiderations.js', function() {
   it('theColorRed should select the 0 index of colors. CHECK', function() {
       assert.equal(theColorRed, 'red');
   });
-  it('theColorRed should select the 2nd index of colors. CHECK', function() {
+  it('theColorYellow should select the 2nd index of colors. CHECK', function() {
       assert.equal(theColorYellow, 'yellow');
   });
   it('the forty third color', function() {
@@ -10,7 +10,7 @@ describe('basemode arrayIndexConsiderations.js', function() {
   });
 
   it('lastItem function should return the last item in an array that is passed to it', function() {
-      var zeroThroughFour = [0, 1, 2, 3, 4];
+      var zeroThroughFour = [4];
       assert.equal(lastItem(zeroThroughFour), 4);
 
       var letters = ['p', 'r', 'i', 'm', 'e'];
