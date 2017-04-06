@@ -1,4 +1,4 @@
-describe('basemode switchDefault.js', function() {
+describe('hardmode switchDefault.js', function() {
   it( 'switch statements should return true for weekend days. CHECK', function() {
     assert.equal( true, checkDay( 'saturday' ) );
     assert.equal( true, checkDay( 'sunday' ) );

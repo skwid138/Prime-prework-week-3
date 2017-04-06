@@ -1,4 +1,4 @@
-describe('basemode whileLoop.js', function() {
+describe('hardmode whileLoop.js', function() {
   it( 'should return the same number that is passed in with a while loop. CHECK', function() {
     assert.equal( 17, fillCrate( 17 ) );
     assert.equal( 42, fillCrate( 42 ) );
