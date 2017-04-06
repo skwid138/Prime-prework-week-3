@@ -20,15 +20,15 @@ Don't forget to keep the existing code as is and ignore any code that is comment
 ### Files Provided
 This week you'll be completing the scripts in the following files:
 
-- [ ] *arrayIndexConsiderations.js*
-- [ ] *arrays.js*
-- [ ] *booleanConditions.js*
-- [ ] *doWhileLoops.js*
-- [ ] *forLoop.js*
-- [ ] *logicalOperators.js*
-- [ ] *loopsAndConditions.js*
-- [ ] *switchDefault.js*
-- [ ] *whileLoop.js*
+- [ ] *1_arrayIndexConsiderations.js* (Base)
+- [ ] *2_arrays.js* (Base)
+- [ ] *3_booleanConditions.js* (Base)
+- [ ] *4_forLoop.js* (Base)
+- [ ] *5_logicalOperators.js* (Base)
+- [ ] *6_doWhileLoops.js* (Hard)
+- [ ] *7_loopsAndConditions.js* (Hard)
+- [ ] *8_switchDefault.js* (Hard)
+- [ ] *9_whileLoop.js* (Hard)
 
 Each script has some code ready for you with comments telling you what to write. For example, let's look at *example.js*.
 
@@ -53,6 +53,19 @@ function tripleThis( number ){
   return answer;
 } // end tripleThis
 ```
+
+#### Modes
+
+Above, we introduced the concept of levels of difficulty. "Mode" is how we will typically refer to each level. Below is a brief explanation of
+
+* what to expect when attempting each mode
+* if they are required or not
+
+Mode | Description
+--- | ---
+Base | required
+Hard | optional, stretches your understanding
+Pro | optional, stretches your understanding and may require additional research
 
 **NOTE:** All the *.js* files are already sourced into *index.html*.
 
