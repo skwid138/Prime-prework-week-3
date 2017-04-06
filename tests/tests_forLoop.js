@@ -8,7 +8,7 @@ describe('basemode forLoop.js', function() {
     shoesOnTheBus(kids);
 
     // assert that it was called the correct number of times
-    expect(logSpy.callCount).to.equal(5);
+    expect(logSpy.callCount).to.equal(kids.length);
 
     // assert that it was called with the correct value
     // using matchers to provide more fuzziness
@@ -21,7 +21,7 @@ describe('basemode forLoop.js', function() {
     logSpy.restore();
   });
   it( 'should return the number of shoes on bus', function() {
-    assert.equal( 10, shoesOnTheBus(kids) ); // kid.length = 5
-    assert.equal( 0, shoesOnTheBus([]) );
+    assert.equal( shoesOnTheBus(kids), 10 ); // kid.length = 5
+    assert.equal( shoesOnTheBus([]), 0 );
   });
 });
