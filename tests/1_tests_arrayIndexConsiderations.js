@@ -9,7 +9,7 @@ describe('basemode arrayIndexConsiderations.js', function() {
       assert.isUndefined(fortyThirdColor);
   });
 
-  describe('basemode lastItem()', function() {
+  describe('lastItem()', function() {
     it('returns the last item in an array that is passed to it', function() {
         var zeroThroughFour = [4];
         assert.equal(lastItem(zeroThroughFour), 4);

@@ -1,4 +1,4 @@
-describe('basemode arrays.js tests:', function() {
+describe('basemode arrays.js', function() {
   var initialArray = ['Albert', 'Dev', 'Ryan', 'Antoinette', 'Prince'];
   initialArray.forEach(function(element, index) {
     it('correct person is in people array at the correct index', function() {
