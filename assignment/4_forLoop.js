@@ -7,10 +7,23 @@ function shoesOnTheBus( ArrayOfKidsOnBus ){
   // AND console log "Nice shoes!" for each student.
 
   // The totaling of shoes should be done inside the loop.
-
+  for (var i = 0; i < ArrayOfKidsOnBus.length; i += 1) {
+    shoes += 2;
+    console.log('Nice Shoes!');
+  }
 
   // This function should return the number of shoes on the bus.
+return shoes;
 
 } // end shoesOnTheBus
 
+var kidsList = [
+  'Hunter',
+  'Becky',
+  'Banjo',
+  'Lola'
+];
+
 // test your function shoesOnTheBus by calling it below and logging the result
+
+console.log("There are " + shoesOnTheBus(kidsList) + " shoes on the bus.");
