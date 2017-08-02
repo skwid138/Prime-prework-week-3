@@ -12,7 +12,7 @@ var theColorYellow = colors[2];
 // what happens if we access an index that has no element?
 // uncomment the following line and replace ____ with the appropriate code
 var fortyThirdColor = colors[42];
-console.log(fortyThirdColor);
+// console.log(fortyThirdColor);
 // The index doesn't have a value assigned to it
 // the result is undefined
 
