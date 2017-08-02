@@ -40,6 +40,7 @@ function whatAreYourFavoriteFoods () {
 }
 
 // tests the restaurant array aginst the user input array to find matches
+// either use a 2nd for loop or use a function and call it to run the 2nd loop
 function compareFood (rest, userFav) {
   for (let i = 0; i < rest.length; i += 1) {
     if (rest[i] === userFav[0]) {
