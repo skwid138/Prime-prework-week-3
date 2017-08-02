@@ -23,8 +23,10 @@ const restaurantMenu = [
   'salad'
 ];
 
-const
+const favoritesAtRestaurant = [
+];
 
+// creates an array of strings input by the user
 function whatAreYourFavoriteFoods () {
   console.log('favorite foods function started');
   alert("The following will ask for five of your favorite foods.");
@@ -37,12 +39,31 @@ function whatAreYourFavoriteFoods () {
   }
 }
 
+// tests the restaurant array aginst the user input array to find matches
 function compareFood (rest, userFav) {
   for (let i = 0; i < rest.length; i += 1) {
-    if (rest[i] === userFav[i]) {
-
+    if (rest[i] === userFav[0]) {
+      favoritesAtRestaurant.push(userFav[0]);
+    } else if (rest[i] === userFav[1]) {
+      favoritesAtRestaurant.push(userFav[1]);
+    } else if (rest[i] === userFav[2]) {
+      favoritesAtRestaurant.push(userFav[2]);
+    } else if (rest[i] === userFav[3]) {
+      favoritesAtRestaurant.push(userFav[3]);
+    } else if (rest[i] === userFav[3]) {
+      favoritesAtRestaurant.push(userFav[3]);
+    } else if (rest[i] === userFav[4]) {
+      favoritesAtRestaurant.push(userFav[4]);
+    } else {
+      return "The restaurant doesn't serve any of your favorite foods!";
     }
   }
 }
 
-whatAreYourFavoriteFoods();
+// creates user fav list then runs it against restaurant menu checking for matches, then alerts the user if there are matches
+function discussionWeekThree () {
+  whatAreYourFavoriteFoods();
+  compareFood(restaurantMenu, favoriteFoods);
+  alert("The restaurant serves these favorites!\n\n" + favoritesAtRestaurant);
+}
+discussionWeekThree();
