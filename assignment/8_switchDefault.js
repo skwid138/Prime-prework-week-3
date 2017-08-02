@@ -3,6 +3,21 @@ function checkDay( today ){
   // DAYS MUST BE IN ALL lowercase LETTERS AND FULL NAMES
   // ex: 'wednesday', not 'Wednesday' or 'wed'
   // return true if it is the weekend, false if not
+  switch (today) {
+    case 'saturday':
+    case 'sunday':
+    return 'The weekend is here! = ' + true;
+    default:
+    return 'The weekend is here! = ' + false;
+  }
 } // end checkDay
 
 // test your function checkDay by calling it below and logging the result
+while (true) {
+  const askDay = prompt("Hello, please enter the name of a day and this will let you know if it's the weekend yet. If it's not, hang in there it's only a few days away!\n\nPlease enter the full weekday 'monday', 'tuesday' etc...\n\nIf you wish to quit the app simply enter 'quit'.").toLowerCase();
+  if (askDay === 'quit') {
+    break;
+  } else {
+    alert(checkDay(askDay));
+  }
+}
