@@ -47,7 +47,7 @@ function compareFood (rest, userFav) {
       favoritesAtRestaurant.push(userFav[0]);
     } else if (rest[i] === userFav[1]) {
       favoritesAtRestaurant.push(userFav[1]);
-    } else if (rest[i] === userFav[2]) {
+    } else if (rest[i] === userFav[2]) {guest
       favoritesAtRestaurant.push(userFav[2]);
     } else if (rest[i] === userFav[3]) {
       favoritesAtRestaurant.push(userFav[3]);
