@@ -15,7 +15,7 @@ var orTruthTable = [true  || true,
 
 // in the array 'orTruthTable', how many elements are false?
 // uncomment the next line and replace ___ with the appropriate value
-var numberOfFalseElements = 3;
+var numberOfFalseElements = 1;
 
 
 function opposite(booleanValue) {
@@ -25,8 +25,10 @@ function opposite(booleanValue) {
 }
 
 // test your function opposite by calling it below and logging the result
-console.log('Entered a true value into the function. The opposite is ' +  opposite(true));
-console.log('Entered a false value into the function. The opposite is ' + opposite(false));
+// console.log('Entered a true value into the function. The opposite is ' +  opposite(true));
+console.log(opposite(true));
+// console.log('Entered a false value into the function. The opposite is ' + opposite(false));
+console.log(opposite(false));
 
 
 // this function will test the values of an array to see if they evalute to true or false, then it logs the result of each test with the index number (I did fill in the nswers to the bove questions prior to creating this function)

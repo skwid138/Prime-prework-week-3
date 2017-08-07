@@ -6,9 +6,9 @@ function checkDay( today ){
   switch (today) {
     case 'saturday':
     case 'sunday':
-      return 'If today is ' + today + '. The weekend is here! = ' + true;
+      return true;  // 'If today is ' + today + '. The weekend is here! = ' + true;
     default:
-      return 'If today is ' + today + '. The weekend is here! = ' + false;
+      return false; //'If today is ' + today + '. The weekend is here! = ' + false;
   }
 } // end checkDay
 

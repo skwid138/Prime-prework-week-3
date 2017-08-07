@@ -9,7 +9,8 @@ function fillCrate( maxCapacity ){
     widgets += 1;
   }
   // return the number of widgets added to the crate in the while loop
-  return 'Added ' + widgets + ' / ' + maxCapacity + ' widgets to your crate.';
+  return widgets;
+  // return 'Added ' + widgets + ' / ' + maxCapacity + ' widgets to your crate.';
   // return 'Added ' + widgets + '/' + crateSize + ' widgets to your crate.\n\nYour crate is full now!';
 } // end fillCrate
 
