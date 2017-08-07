@@ -30,18 +30,19 @@ console.log('Entered a false value into the function. The opposite is ' + opposi
 
 
 // this function will test the values of an array to see if they evalute to true or false, then it logs the result of each test with the index number (I did fill in the nswers to the bove questions prior to creating this function)
-function isItTrue(arr) {
-  var trues = 0;
-  for (var i = 0; i < arr.length; i += 1) {
-    if (arr[i] === true) {
-      trues += 1;
-      console.log('index: ' + i + ' is true.');
-    } else {
-      console.log('index: ' + i + ' is not true.');
-    }
-  }
-  return trues;
-}
 
-isItTrue(andTruthTable);
-isItTrue(orTruthTable);
+// function isItTrue(arr) {
+//   var trues = 0;
+//   for (var i = 0; i < arr.length; i += 1) {
+//     if (arr[i] === true) {
+//       trues += 1;
+//       console.log('index: ' + i + ' is true.');
+//     } else {
+//       console.log('index: ' + i + ' is not true.');
+//     }
+//   }
+//   return trues;
+// }
+//
+// isItTrue(andTruthTable);
+// isItTrue(orTruthTable);

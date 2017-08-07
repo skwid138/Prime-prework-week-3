@@ -1,6 +1,7 @@
 // remember! array indices start at 0
 
-var colors = ['red', 'blue', 'yellow', 'green', 'orange', 'indigo', 'violet'];
+var colors = ['red', 'blue', 'yellow'];
+// var colors = ['red', 'blue', 'yellow', 'green', 'orange', 'indigo', 'violet'];
 
 // using array indices, write an expression that will evaluate to the color described by these variable names
 // for example var theColorBlue = colors[1];
@@ -25,6 +26,6 @@ function lastItem( lastItemArray ) {
 // test your function lastItem by calling it below and logging the result
 // for ex. console.log(lastItem(colors));
 
-alert("There are " + colors.length + " in the array and the last one is " + lastItem(colors) + ".");
+// alert("There are " + colors.length + " in the array and the last one is " + lastItem(colors) + ".");
 
 console.log(lastItem(colors));

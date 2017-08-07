@@ -34,5 +34,5 @@ var nums = [
 ];
 
 // test your function onlyEvens by calling it below and logging the result
-console.log('Here are all the numbers ' + nums);
+// console.log('Here are all the numbers ' + nums);
 console.log('Here are the even numbers ' + onlyEvens(nums));
